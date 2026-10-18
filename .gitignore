@@ -1,0 +1,40 @@
+.DS_Store
+.vscode
+__pycache__
+*.pyc
+
+# Project-local Claude state (keep settings.json + hooks/ tracked)
+.claude/.last-test-time
+.claude/settings.local.json
+.claude/usage-log/.github-user
+.claude/bin/
+
+# Python / uv
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Runtime session stores (debrief + coaching) — persisted across restarts but
+# not source. The demo cohort lives in data/sdr_records/, not here.
+data/offboarding_sessions.json
+data/coaching_sessions.json
+data/working/
+
+# Secrets
+.env
+
+# Quarto
+*_files/
+*.html
+# but DO track the orchestrator's source HTML template (rendered at request time)
+!scripts/orchestrator_ui.html
+# and the Vite entry point (source, not a rendered artifact)
+!ui/index.html
+
+# Local tooling
+.claude/
+.codex/
+.agents/
+.devcontainer/
+ui/node_modules/
+ui/dist/

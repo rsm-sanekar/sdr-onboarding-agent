@@ -1,0 +1,93 @@
+{
+  "status": "ok",
+  "next_action": "done",
+  "confidence": 0.89,
+  "review_required": false,
+  "artifact_refs": [
+    "01_certification_gap_analysis.md"
+  ],
+  "outputs": {
+    "sdr_id": "SDR-006",
+    "sdr_name": "Liam O'Brien",
+    "cohort": "Spring 2026",
+    "territory": "EMEA FinTech",
+    "overall_recommendation": "PASS",
+    "llm_overall_recommendation": "PASS",
+    "overall_rationale": "Liam's value messaging is the strongest in the cohort \u2014 quantifies cleanly, names specific peer outcomes, and frames the investment as a return rather than a cost. Senior-level fluency across all five dimensions. Ready for live calls.",
+    "weakest_dimension": "objection_handling",
+    "dimension_findings": {
+      "product_knowledge_accuracy": {
+        "score": 9,
+        "verdict": "pass",
+        "evidence_quote": "Sales Cloud is built around the Opportunity object, Service Cloud around the Case object.",
+        "rationale": "Schema-level distinction; outcome framing per cloud.",
+        "gap_to_close": "No real gap.",
+        "coaching_action": "Continue trajectory.",
+        "label": "Product knowledge accuracy"
+      },
+      "objection_handling": {
+        "score": 8,
+        "verdict": "pass",
+        "evidence_quote": "Defuse \u2014 Acknowledge the concern. Discover \u2014 Ask an open-ended question. Deliver \u2014 reframe to value.",
+        "rationale": "Names and uses the pattern; explicit avoidance of discounting first.",
+        "gap_to_close": "Minor \u2014 could go deeper on regulatory objection variants for FinTech.",
+        "coaching_action": "FinTech-specific objection library practice.",
+        "label": "Objection handling (Defuse, Discover, Deliver)"
+      },
+      "meddic_application": {
+        "score": 8,
+        "verdict": "pass",
+        "evidence_quote": "Verdict: this is NOT yet a qualified opportunity. Sending a proposal now would be premature.",
+        "rationale": "Correctly identifies EB gap and proposes a question that unlocks two missing dimensions at once.",
+        "gap_to_close": "No real gap.",
+        "coaching_action": "Continue trajectory.",
+        "label": "MEDDIC framework application"
+      },
+      "salesforce_value_messaging": {
+        "score": 9,
+        "verdict": "pass",
+        "evidence_quote": "Two of your FinTech peers I worked with last quarter were stuck on the same math. Both used Sales Cloud + Data Cloud to enrich existing accounts. One added $8M in pipeline in two quarters with the same headcount.",
+        "rationale": "Quantifies (4x time, $8M, 8 weeks), names peer examples, frames as investment with return.",
+        "gap_to_close": "No real gap.",
+        "coaching_action": "Continue trajectory; lead value-messaging clinics for newer SDRs.",
+        "label": "Salesforce value messaging"
+      },
+      "discovery_and_questioning": {
+        "score": 8,
+        "verdict": "pass",
+        "evidence_quote": "How are you thinking about getting there? Is that work your team has the capacity for, or is that a blocker?",
+        "rationale": "Open-ended, surfaces both pain and feasibility.",
+        "gap_to_close": "Minor \u2014 could ask one more question about Decision Process explicitly.",
+        "coaching_action": "Continue trajectory.",
+        "label": "Discovery and questioning"
+      }
+    },
+    "review_reasons": [],
+    "retrieved_docs": [
+      "certification_rubric.md",
+      "certification_questions.md"
+    ],
+    "sources": [
+      {
+        "doc_name": "certification_rubric.md",
+        "passage": "Passing bar: an SDR should score 7 or above on every dimension. A score of 5-6 on any one dimension is a borderline result and requires trainer review. A score of 4 or below on any dimension is a fail on that dimension regardless of the others.",
+        "score": 0.92,
+        "weak": false
+      },
+      {
+        "doc_name": "certification_rubric.md",
+        "passage": "MEDDIC framework application \u2014 Common gap: SDRs conflate a helpful contact with the economic buyer, and book meetings that the AE later rejects. Coaching action: MEDDIC qualification drills.",
+        "score": 0.88,
+        "weak": false
+      },
+      {
+        "doc_name": "certification_questions.md",
+        "passage": "Q3 \u2014 MEDDIC framework application. Identify which elements are captured and which are missing. Would you call this a qualified opportunity ready for an AE handoff, or not?",
+        "score": 0.81,
+        "weak": false
+      }
+    ],
+    "generated_at": "2026-06-05T07:47:09.337990+00:00"
+  },
+  "error": null
+}

@@ -1,0 +1,95 @@
+{
+  "status": "needs_review",
+  "next_action": "done",
+  "confidence": 0.94,
+  "review_required": true,
+  "artifact_refs": [
+    "01_certification_gap_analysis.md"
+  ],
+  "outputs": {
+    "sdr_id": "SDR-003",
+    "sdr_name": "Aisha Patel",
+    "cohort": "Spring 2026",
+    "territory": "AMER SaaS",
+    "overall_recommendation": "FAIL",
+    "llm_overall_recommendation": "FAIL",
+    "overall_rationale": "Aisha confuses Service Cloud with Sales Cloud, claims Marketing Cloud launched 'last year' (it's been around over a decade), and treats champion presence as sufficient to send a proposal. Objection handling is to discount; discovery is closed and pitch-driven. This is a fail on every dimension and should not advance to live calls without significant remediation.",
+    "weakest_dimension": "product_knowledge_accuracy",
+    "dimension_findings": {
+      "product_knowledge_accuracy": {
+        "score": 2,
+        "verdict": "fail",
+        "evidence_quote": "Sales Cloud is Salesforce's main product \u2014 it does everything: pipeline, customer service, marketing. Service Cloud is basically a newer name for Sales Cloud.",
+        "rationale": "Conflates Sales Cloud and Service Cloud, claims Marketing Cloud is brand new, and treats every cloud as interchangeable.",
+        "gap_to_close": "Cannot distinguish core products at the schema or business-outcome level \u2014 fundamental gap.",
+        "coaching_action": "Targeted product modules for every cloud; do not advance until product fundamentals are solid.",
+        "label": "Product knowledge accuracy"
+      },
+      "objection_handling": {
+        "score": 3,
+        "verdict": "fail",
+        "evidence_quote": "If a prospect raises a price objection I would offer a 10% discount to get the deal closed faster.",
+        "rationale": "Skips Defuse and Discover entirely; goes straight to discount as the lever, which trains the prospect to wait for the next discount.",
+        "gap_to_close": "Inverts the rubric \u2014 discount is the wrong tool and undermines value-based positioning.",
+        "coaching_action": "Re-do the objection roleplay program from the start; supervised practice with the SDR manager.",
+        "label": "Objection handling (Defuse, Discover, Deliver)"
+      },
+      "meddic_application": {
+        "score": 2,
+        "verdict": "fail",
+        "evidence_quote": "The Director is interested and engaged. They asked for a proposal. That means it's qualified.",
+        "rationale": "Sends proposals to deals with no EB, no quantified pain, no decision process \u2014 exactly the pattern that produces failed AE handoffs.",
+        "gap_to_close": "Champion-equals-qualified is the most common new-SDR mistake and is fully present here.",
+        "coaching_action": "Mandatory MEDDIC qualification drills with weekly check-ins until consistent.",
+        "label": "MEDDIC framework application"
+      },
+      "salesforce_value_messaging": {
+        "score": 3,
+        "verdict": "fail",
+        "evidence_quote": "Sales Cloud has amazing features \u2014 AI-powered everything, automated workflows, mobile apps, and integration with thousands of other tools.",
+        "rationale": "Pure feature dump with no quantified outcome and no tie to the prospect's stated priorities.",
+        "gap_to_close": "Cannot articulate value beyond 'best CRM, Fortune 500 uses it.'",
+        "coaching_action": "Value messaging practice from the ground up; would benefit from shadowing a senior SDR on three live calls before next certification attempt.",
+        "label": "Salesforce value messaging"
+      },
+      "discovery_and_questioning": {
+        "score": 3,
+        "verdict": "fail",
+        "evidence_quote": "Are you looking for a new CRM? What's wrong with your current CRM? How big is your sales team? What's your budget?",
+        "rationale": "Four of five questions are closed yes/no or about Salesforce rather than the prospect's situation.",
+        "gap_to_close": "Discovery is product-centric not prospect-centric.",
+        "coaching_action": "Discovery question bank practice with daily roleplays for two weeks.",
+        "label": "Discovery and questioning"
+      }
+    },
+    "review_reasons": [
+      "server-computed overall recommendation is FAIL \u2014 trainer review required"
+    ],
+    "retrieved_docs": [
+      "certification_rubric.md",
+      "certification_questions.md"
+    ],
+    "sources": [
+      {
+        "doc_name": "certification_rubric.md",
+        "passage": "Passing bar: an SDR should score 7 or above on every dimension. A score of 5-6 on any one dimension is a borderline result and requires trainer review. A score of 4 or below on any dimension is a fail on that dimension regardless of the others.",
+        "score": 0.92,
+        "weak": false
+      },
+      {
+        "doc_name": "certification_rubric.md",
+        "passage": "MEDDIC framework application \u2014 Common gap: SDRs conflate a helpful contact with the economic buyer, and book meetings that the AE later rejects. Coaching action: MEDDIC qualification drills.",
+        "score": 0.88,
+        "weak": false
+      },
+      {
+        "doc_name": "certification_questions.md",
+        "passage": "Q3 \u2014 MEDDIC framework application. Identify which elements are captured and which are missing. Would you call this a qualified opportunity ready for an AE handoff, or not?",
+        "score": 0.81,
+        "weak": false
+      }
+    ],
+    "generated_at": "2026-06-05T07:47:09.336882+00:00"
+  },
+  "error": null
+}

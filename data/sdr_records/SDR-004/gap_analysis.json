@@ -1,0 +1,95 @@
+{
+  "status": "needs_review",
+  "next_action": "done",
+  "confidence": 0.82,
+  "review_required": true,
+  "artifact_refs": [
+    "01_certification_gap_analysis.md"
+  ],
+  "outputs": {
+    "sdr_id": "SDR-004",
+    "sdr_name": "Diego Rodriguez",
+    "cohort": "Spring 2026",
+    "territory": "EMEA Retail",
+    "overall_recommendation": "BORDERLINE",
+    "llm_overall_recommendation": "BORDERLINE",
+    "overall_rationale": "Diego's pitch is solid and his discovery is genuinely open-ended. The one gap is on MEDDIC \u2014 he correctly identifies Economic Buyer and Decision Process gaps, but skips Metrics quantification, which the rubric flags as the single most common cause of failed AE handoffs. With one targeted coaching session he is at a PASS bar; recommend trainer review with a plan rather than a no-go.",
+    "weakest_dimension": "meddic_application",
+    "dimension_findings": {
+      "product_knowledge_accuracy": {
+        "score": 8,
+        "verdict": "pass",
+        "evidence_quote": "Sales Cloud \u2014 pipeline and opportunity management; outcome is predictable revenue. Service Cloud \u2014 case management for post-sale support; outcome is lower cost per case.",
+        "rationale": "Pairs each cloud with a business outcome and distinguishes them correctly.",
+        "gap_to_close": "Minor \u2014 could go deeper on Data Cloud's role in unified customer view.",
+        "coaching_action": "Optional: short reading on Data Cloud architecture patterns.",
+        "label": "Product knowledge accuracy"
+      },
+      "objection_handling": {
+        "score": 7,
+        "verdict": "pass",
+        "evidence_quote": "On a price objection I would acknowledge the concern, then ask what's driving it \u2014 is it the absolute number, the timing, or a comparison against another vendor?",
+        "rationale": "Names Defuse and Discover and routes through them in order; explicitly avoids leading with a discount.",
+        "gap_to_close": "Slightly mechanical \u2014 could feel more conversational; missed an opportunity to reframe in his transcript when the prospect mentioned 'paperwork.'",
+        "coaching_action": "Three sessions of conversational objection roleplay focused on Deliver-step fluency.",
+        "label": "Objection handling (Defuse, Discover, Deliver)"
+      },
+      "meddic_application": {
+        "score": 6,
+        "verdict": "borderline",
+        "evidence_quote": "(I note the question asks me to apply MEDDIC; I haven't yet quantified the metrics piece \u2014 I would push the Director to put a number on the pain in our next call.)",
+        "rationale": "Correctly identifies EB and Decision Process gaps but openly admits he skipped Metrics quantification \u2014 the rubric explicitly weights this dimension heavily because poor qualification is the most common cause of failed handoffs.",
+        "gap_to_close": "Missing Metrics quantification is the borderline-not-fail line; he sees the gap but didn't close it.",
+        "coaching_action": "One targeted coaching session on quantifying pain ('what does this cost you in real dollars or hours'); roleplay with three retail-specific examples.",
+        "label": "MEDDIC framework application"
+      },
+      "salesforce_value_messaging": {
+        "score": 8,
+        "verdict": "pass",
+        "evidence_quote": "Three SaaS VPs of Sales I worked with this quarter were trying to grow pipeline 20% without adding headcount. The unlock was Sales Cloud's revenue intelligence layer flagging stalled deals earlier.",
+        "rationale": "Quantifies, ties to outcome the VP cares about, avoids feature language. Strong dimension.",
+        "gap_to_close": "Minor \u2014 example was SaaS, not Retail (his territory). Worth tailoring.",
+        "coaching_action": "Continue current trajectory; build a Retail-specific value-messaging pattern.",
+        "label": "Salesforce value messaging"
+      },
+      "discovery_and_questioning": {
+        "score": 7,
+        "verdict": "pass",
+        "evidence_quote": "What's the operational metric your CEO is asking you to move this year? Where does your team spend time today that doesn't create real value?",
+        "rationale": "Five open-ended questions covering pain, MEDDIC inputs, and context.",
+        "gap_to_close": "Minor \u2014 could be more retail-specific to land harder with his territory.",
+        "coaching_action": "Optional: build a vertical-specific discovery question bank.",
+        "label": "Discovery and questioning"
+      }
+    },
+    "review_reasons": [
+      "server-computed overall recommendation is BORDERLINE \u2014 trainer review required"
+    ],
+    "retrieved_docs": [
+      "certification_rubric.md",
+      "certification_questions.md"
+    ],
+    "sources": [
+      {
+        "doc_name": "certification_rubric.md",
+        "passage": "Passing bar: an SDR should score 7 or above on every dimension. A score of 5-6 on any one dimension is a borderline result and requires trainer review. A score of 4 or below on any dimension is a fail on that dimension regardless of the others.",
+        "score": 0.92,
+        "weak": false
+      },
+      {
+        "doc_name": "certification_rubric.md",
+        "passage": "MEDDIC framework application \u2014 Common gap: SDRs conflate a helpful contact with the economic buyer, and book meetings that the AE later rejects. Coaching action: MEDDIC qualification drills.",
+        "score": 0.88,
+        "weak": false
+      },
+      {
+        "doc_name": "certification_questions.md",
+        "passage": "Q3 \u2014 MEDDIC framework application. Identify which elements are captured and which are missing. Would you call this a qualified opportunity ready for an AE handoff, or not?",
+        "score": 0.81,
+        "weak": false
+      }
+    ],
+    "generated_at": "2026-06-05T07:47:09.337264+00:00"
+  },
+  "error": null
+}
